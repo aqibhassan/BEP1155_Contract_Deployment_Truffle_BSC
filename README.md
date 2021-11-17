@@ -19,6 +19,7 @@ Repo contains Production Ready truffle and web3 setup to deploy BEP1155 contract
 - cd to project file
 - `touch .env`
 - Copy the data from '.env-sample' and paste it into '.env'
+- Set base uri of NFT Contract in .env 
 - Make changes in parameters according to your project
 - run a commands in your terminal `npm install`
 - Then run this for test net `truffle migrate --network testnet`
